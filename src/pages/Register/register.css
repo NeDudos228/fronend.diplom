@@ -1,0 +1,59 @@
+.register-container {
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+  
+    .register-form {
+      display: grid;
+      gap: 2rem;
+      text-align: center;
+      box-shadow: 0rem 0rem 3rem var(--shadow-color);
+      border-radius: 2rem;
+      color: white;
+      padding: 3.5rem 2.5rem;
+  
+      .inputs-container {
+        display: grid;
+        gap: 1rem;
+  
+        .inputs-block {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+          .input-container {
+            display: grid;
+            gap: 0.5rem;
+            width: 100%;
+            text-align: start;
+    
+            p {
+              padding: 0rem 1rem;
+            }
+          }
+        }    
+      }
+
+  
+      .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.2rem;
+  
+        button {
+          width: min-content;
+        }
+  
+        .info-link {
+          color: white;
+          opacity: 0.5;
+          font-size: 0.9rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  body {
+    background-color: black;
+  }

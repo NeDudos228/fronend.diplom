@@ -1,0 +1,36 @@
+/* components/footer.css */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ddd;
+  }
+
+  

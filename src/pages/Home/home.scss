@@ -1,0 +1,35 @@
+.home-container {
+  height: 100dvh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  
+    .logo-container {
+      display: flex; 
+      align-items: center;
+      gap: 1rem;
+    }
+    .right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem ;
+    }
+  }
+  
+  .content-container {
+    flex: 1;
+    display: flex;
+
+    .content {
+      padding: 1rem 2rem;
+    }
+  }
+}

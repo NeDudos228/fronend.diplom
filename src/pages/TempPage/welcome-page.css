@@ -1,0 +1,21 @@
+.welcome-page-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  height: 100dvh;
+
+  .buttons-container {
+    display: flex;
+    gap: 1rem;
+
+    .link-button {
+      text-decoration: none;
+      color: var(--text-color);
+      background-color: var(--primary-color);
+      border-radius: 1rem;
+      padding: 0.3rem 1rem;
+    }
+  }
+}
